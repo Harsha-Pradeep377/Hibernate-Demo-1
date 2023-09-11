@@ -1,5 +1,7 @@
 package entity;
 
+
+
 import java.util.Date;
 import java.util.List;
 
@@ -54,7 +56,7 @@ public class StudentEntity {
     private List<String> mobiles;
 
     @CreationTimestamp
-    @Column(name= "create_date", nullable = false)
+    @Column(name = "create_date", nullable = false)
     private Date createDate;
-    
+
 }
